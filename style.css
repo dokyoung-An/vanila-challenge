@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR:wght@200;300&display=swap');
+
+html, body {
+    margin: 0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 9990;
+}
+
+.box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    color:aliceblue;
+}
+.box .name {
+    font-size: 1.3rem;
+    font-family: 'Noto Serif KR', serif;
+}
+.box #todo-form {
+    width: 50%;
+    margin: 10% 0;
+    color:aliceblue;
+}
+.box #todo-list {
+    color: aliceblue;
+}
+.box #todo-form input {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+#weather {
+    position: absolute;
+    top:5%;
+    right:5%;
+    z-index: 99999;
+    color:aliceblue;
+}
+.login {
+    position: absolute;
+    top:5%;
+    left:5%;
+    z-index: 999999;
+}
+#quote {
+    width: 50%;
+}
+#quote span{
+    display: block;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    word-break: keep-all;
+}
+#quote span:last-child {
+    font-size: 1rem;
+    margin-top: 2%;
+}
